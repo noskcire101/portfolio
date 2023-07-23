@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 345px;
+}
+
+.innerCon {
+  background: #002349;
+  display: block;
+  position: fixed;
+  z-index: 60;
+}
+main {
+  width: 100%;
+}
+.sidebar {
+  background: #002349;
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  background-color: #001731;
+  height: 67px;
+}
+.logo {
+  font-size: 30px;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 0px;
+  transition: all 0.5s;
+  padding: 19px;
+  background-color: #001730;
+  position: absolute;
+  left: -63px;
+  cursor: pointer;
+  @media only screen and (max-width: 639px) {
+    padding: 16px;
+    left: -57px;
+    top: 0;
+  }
+}
+
+ul.dropDown {
+  font-size: 15px;
+  background-color: #001730;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ul.dropDown li {
+  text-indent: 47px;
+  padding: 8px;
+  cursor: pointer;
+}
+ul.dropDown li:hover {
+  background: #01458f;
+  color: #fff;
+  transition: all 0.5s;
+}
+.link {
+  display: flex;
+  white-space: nowrap;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background: #004fa5;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.active {
+  background: #004fa5;
+  color: #fff;
+}
+.icon,
+.link_text {
+  font-size: 17px;
+  transition: all 0.5s;
+}
+.icon svg {
+  margin: 5px 3px;
+}
+.toggle {
+  cursor: pointer;
+  transition: 0.3s;
+}
