@@ -6,7 +6,7 @@ const HomepageHeader = () => {
     <div className="wrapper   bg-[#101010]  pb-15 m-auto">
       <div className="container overflow-auto relative max-w-[1600px] flex flex-col w-full md:w-12/12  mx-auto px-[0%] md:px-12 ">
         <div className="flex  flex-wrap">
-          <div className="w-full lg:w-6/12 px-4 py-0 md:py-20">
+          <div className="w-full lg:w-6/12 px-4 pt-10 md:py-20">
             <img
               className="animate-fade-up  textContainer"
               src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
