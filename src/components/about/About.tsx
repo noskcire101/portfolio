@@ -14,17 +14,17 @@ const HomepageAbout = () => {
             </h2>
             <div className="mx-auto max-w-[700px]">
               <p className="text-white text-2xl ">
-                I am quite passionate about computer programming and am always
-                willing to learn new things especially if it's going to make the
-                workflow more efficient. Aside from being eager to learn, I
-                would absolutely describe myself as someone who can readily
-                adjust to different work environments, my prior position most of
-                the time required me to communicate with members of several
-                teams from different nationality. In addition, I can also
-                confidently state that I am capable of multitasking; my prior
-                role required me to attend numerous meetings, conduct scheduled
-                training, taking some side projects, assist new hires, and build
-                a website all at the same shift.
+                I am passionate about computer programming and always willing to
+                learn new things especially if it's going to make the workflow
+                more efficient. Aside from being eager to learn, I would
+                absolutely describe myself as someone who can readily adjust to
+                different work environments, my prior position most of the time
+                required me to communicate with members of several teams from
+                different nationality. In addition, I can also confidently state
+                that I am capable of multitasking; my prior role required me to
+                attend numerous meetings, conduct scheduled training, taking
+                some side projects, assist new hires, and build a website all at
+                the same shift.
               </p>
               <br></br>
               <br></br>
