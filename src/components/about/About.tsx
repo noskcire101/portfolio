@@ -6,7 +6,7 @@ const HomepageAbout = () => {
     <div className="wrapper bg-[#000] m-auto">
       <div className="overflow-auto relative flex flex-col w-full md:w-12/12  mx-auto px-[0%] ">
         <div className="flex  flex-wrap">
-          <div className="w-full self-center lg:w-6/12 animate-fade-up  px-20 py-10 ">
+          <div className="w-full self-center lg:w-6/12 animate-fade-up  px-10 md:px-20 py-10 ">
             <br></br>
             <br></br>
             <h2 className="animate-text max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
