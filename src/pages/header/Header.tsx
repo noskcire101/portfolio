@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <nav className="z-50 sticky top-0 ... bg-[#000] min-w-[345px] ">
-        <div className="max-w-[1630px] flex flex-wrap items-center  mx-auto  pb-1 pt-2 pl-[10px] pr-[70px] md:px-[75px] xl:px-[6%] 2xl:px-[5%]">
+        <div className="max-w-[1630px] flex flex-wrap items-center  mx-auto  pb-0.5 pt-2 pl-[10px] pr-[70px] md:px-[75px] xl:px-[6%] 2xl:px-[5%]">
           <Link to="/">
             <div className="cursor-pointer inline-flex mr-[10px] items-center">
               <button className="flex text-sm bg-gray-800 rounded-full md:mr-0 ">
