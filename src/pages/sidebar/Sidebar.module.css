@@ -11,7 +11,7 @@
 }
 
 .innerCon {
-  background: #002349;
+  background: #1a1a1a;
   display: block;
   position: fixed;
   z-index: 60;
@@ -20,7 +20,7 @@ main {
   width: 100%;
 }
 .sidebar {
-  background: #002349;
+  background: #1a1a1a;
   color: #fff;
   height: 100vh;
   width: 300px;
@@ -30,7 +30,7 @@ main {
   display: flex;
   align-items: center;
   padding: 15px 15px;
-  background-color: #001731;
+  background-color: #1a1a1a;
   height: 67px;
 }
 .logo {
@@ -45,7 +45,7 @@ main {
   margin-left: 0px;
   transition: all 0.5s;
   padding: 19px;
-  background-color: #001730;
+  background-color: #1a1a1a;
   position: absolute;
   left: -63px;
   cursor: pointer;
@@ -58,7 +58,7 @@ main {
 
 ul.dropDown {
   font-size: 15px;
-  background-color: #001730;
+  background-color: #222222;
   margin-bottom: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -69,7 +69,7 @@ ul.dropDown li {
   cursor: pointer;
 }
 ul.dropDown li:hover {
-  background: #01458f;
+  background: #333;
   color: #fff;
   transition: all 0.5s;
 }
@@ -82,13 +82,13 @@ ul.dropDown li:hover {
   transition: all 0.5s;
 }
 .link:hover {
-  background: #004fa5;
+  background: #333;
   color: #fff;
   transition: all 0.5s;
   cursor: pointer;
 }
 .active {
-  background: #004fa5;
+  background: #333;
   color: #fff;
 }
 .icon,

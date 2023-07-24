@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.textContainer {
+  border-radius: 24% 76% 70% 30% / 67% 45% 55% 33%;
+  background-color: #e5e3e2;
+}

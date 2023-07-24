@@ -74,9 +74,9 @@ const Sidebar = ({ children }: Props) => {
                 My Account
               </p>
               {openSub ? (
-                <FaAngleUp className="text-lg self-center duration-1000" />
+                <FaAngleUp className="text-lg self-center font-bold duration-1000" />
               ) : (
-                <FaAngleDown className="text-lg self-center duration-1000" />
+                <FaAngleDown className="text-lg self-center font-bold duration-1000" />
               )}
             </div>
             <ul
@@ -86,7 +86,7 @@ const Sidebar = ({ children }: Props) => {
               {/* <li onClick={handleClick} className="text-sm">
                 Update Information
               </li> */}
-              <li className="text-sm">Change Password</li>
+              <li className="text-sm">LinkedIn</li>
             </ul>
           </div>
         </span>
