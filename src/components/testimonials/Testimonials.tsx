@@ -9,7 +9,7 @@ const Testimonials = () => {
       </h2>
       <Carousel>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -24,7 +24,7 @@ const Testimonials = () => {
                   />
                 </svg>
                 <blockquote>
-                  <p className="text-md sm:text-2xl font-medium text-white">
+                  <p className="text-md  sm:text-2xl font-medium text-white">
                     Erickson's dedication and work ethic were truly exceptional
                     during his time at Luxury Presence. As a Web Builder Product
                     Expert, he consistently demonstrated his ability to take on
@@ -64,7 +64,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -119,7 +119,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -174,7 +174,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -229,7 +229,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -285,7 +285,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -340,7 +340,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -394,7 +394,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -448,7 +448,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -502,7 +502,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -556,7 +556,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -609,7 +609,7 @@ const Testimonials = () => {
         </div>
 
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -663,7 +663,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -715,7 +715,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -771,7 +771,7 @@ const Testimonials = () => {
           </section>
         </div>
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -828,7 +828,7 @@ const Testimonials = () => {
         </div>
 
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
@@ -886,7 +886,7 @@ const Testimonials = () => {
         </div>
 
         <div className="flex h-full items-center justify-center bg-[#101010]">
-          <section className="bg-[#101010] ">
+          <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
                 <svg
