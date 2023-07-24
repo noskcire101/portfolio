@@ -14,17 +14,14 @@ const HomepageAbout = () => {
             </h2>
             <div className="mx-auto max-w-[700px]">
               <p className="text-white text-2xl ">
-                I am passionate about computer programming and always willing to
-                learn new things especially if it's going to make the workflow
-                more efficient. Aside of having a strong desire to learn, I can
-                say with confidence that I can easily adapt to various work
-                situations. In fact, my previous role frequently needed me to
-                communicate with people from various teams, including those from
-                the US, LATAM, and Philippines. In addition, I can also say that
-                I am capable of multitasking; my previous role required me to
-                attend numerous meetings, conduct scheduled training, taking
-                some side projects, assist new hires, and build a website all at
-                the same shift.
+                I have a strong interest in computer programming and am always
+                open to learning new skills, especially if they would improve
+                productivity. Aside from a great desire to learn, I am confident
+                in my ability to easily adjust to a new work environment.
+                Furthermore, I can also say that I am capable of multitasking;
+                my previous role required me to attend numerous meetings,
+                conduct scheduled training, taking some side projects, assist
+                new hires, and build a website all within the same shift.
               </p>
               <br></br>
               <br></br>
