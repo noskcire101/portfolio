@@ -16,12 +16,12 @@ const HomepageAbout = () => {
               <p className="text-white text-2xl ">
                 I am passionate about computer programming and always willing to
                 learn new things especially if it's going to make the workflow
-                more efficient. Aside from being eager to learn, I would
-                absolutely describe myself as someone who can readily adjust to
-                different work environments, my prior position most of the time
-                required me to communicate with members of several teams from
-                different nationality. In addition, I can also confidently state
-                that I am capable of multitasking; my prior role required me to
+                more efficient. Aside of having a strong desire to learn, I can
+                say with confidence that I can easily adapt to various work
+                situations. In fact, my previous role frequently needed me to
+                communicate with people from various teams, including those from
+                the US, LATAM, and Philippines. In addition, I can also say that
+                I am capable of multitasking; my previous role required me to
                 attend numerous meetings, conduct scheduled training, taking
                 some side projects, assist new hires, and build a website all at
                 the same shift.
