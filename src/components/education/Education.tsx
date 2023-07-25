@@ -12,7 +12,7 @@ const Information = () => {
                   </h2>
 
                   <div className="grid md:grid-cols-2 gap-8">
-                    <div className="bg-[#000]  rounded-lg p-8 md:p-12">
+                    <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
                       <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                         Cavite State University Imus Campus
                       </h2>
@@ -21,7 +21,7 @@ const Information = () => {
                         <br></br>2017 – 2020
                       </p>
                     </div>
-                    <div className="bg-[#000]  rounded-lg p-8 md:p-12">
+                    <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
                       <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                         Datacom Institute of Computer Technology
                       </h2>
