@@ -3,7 +3,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="wrapper h-[780px] bg-[#101010] py-20 m-auto pb-30">
+    <div className="wrapper h-[780px] bg-[#101010] py-20 m-auto pb-[13vh]">
       <h2 className="animate-text max-w-full text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
         Recommendations
       </h2>
