@@ -20,7 +20,7 @@ const HomepageAbout = () => {
                 <a
                   href="https://www.luxurypresence.com/"
                   target="_blank"
-                  className="cursor-pointer text-white text-3xl font-extrabold"
+                  className="cursor-pointer text-white text-xl sm:text-3xl font-extrabold"
                 >
                   Web Builder Product Expert
                 </a>

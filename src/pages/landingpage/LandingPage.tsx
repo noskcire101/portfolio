@@ -7,9 +7,11 @@ const LandingPage = () => {
   return (
     <>
       <Header />
+
       <About />
-      <Education />
+
       <Testimonials />
+      <Education />
     </>
   );
 };

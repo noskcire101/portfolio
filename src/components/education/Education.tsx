@@ -13,7 +13,7 @@ const Information = () => {
 
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="bg-[#000]  rounded-lg p-8 md:p-12">
-                      <h2 className="text-white text-3xl font-extrabold mb-2">
+                      <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                         Cavite State University Imus Campus
                       </h2>
                       <p className="text-lg font-normal text-white mb-4">
@@ -22,7 +22,7 @@ const Information = () => {
                       </p>
                     </div>
                     <div className="bg-[#000]  rounded-lg p-8 md:p-12">
-                      <h2 className="text-white text-3xl font-extrabold mb-2">
+                      <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                         Datacom Institute of Computer Technology
                       </h2>
                       <p className="text-lg font-normal text-white  mb-4">
