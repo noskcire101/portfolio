@@ -1,4 +1,7 @@
 import React from "react";
+import { FaReact, FaCss3Alt, FaHtml5, FaPhp } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { SiCplusplus, SiTailwindcss, SiFirebase } from "react-icons/si";
 
 const HomepageAbout = () => {
   return (
@@ -8,34 +11,173 @@ const HomepageAbout = () => {
         <div className="flex  flex-wrap">
           <div className="w-full self-center lg:w-6/12 animate-fade-up  px-10 md:px-20 py-10 ">
             <br></br>
-            <br></br>
-            <h2 className="animate-text max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
-              Personal Skills
+
+            <h2 className="max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
+              Work Experience
             </h2>
             <div className="mx-auto max-w-[700px]">
               <p className="text-white text-2xl ">
-                I have a strong interest in computer programming and am always
-                open to learning new skills, especially if they would improve
-                productivity. Aside from a great desire to learn, I am confident
-                in my ability to easily adjust to a new work environment.
-                Furthermore, I can also say that I am capable of multitasking;
-                my previous role required me to attend numerous meetings,
-                conduct scheduled training, taking some side projects, assist
-                new hires, and build a website all within the same shift.
+                <a
+                  href="https://www.luxurypresence.com/"
+                  target="_blank"
+                  className="cursor-pointer text-white text-3xl font-extrabold"
+                >
+                  Web Builder Product Expert
+                </a>
+                <p className="pb-2 text-lg">
+                  Luxury Presence, Inc (April 2020 – May 2023)
+                </p>
+                <ul className="space-y-1 list-disc list-inside">
+                  <li>Build websites using company owned platform</li>
+                  <li>Maintaining CSS injection library for the team</li>
+                  <li>Provide support & learning sessions for the Team</li>
+                  <li>Assist in Training</li>
+                  <li>Assist with SOP update</li>
+                </ul>
               </p>
               <br></br>
               <br></br>
-              <br></br>
-              <a
-                href="#_"
-                className="relative px-6 pt-3 pb-4 font-bold text-black group"
-              >
-                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                <span className="relative">Learn More</span>
-              </a>
-              <br></br>
-              <br></br>
+            </div>
+            <h2 className=" max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
+              Technical Skills
+            </h2>
+            <div className="mx-auto max-w-[700px]">
+              <div className="gap-8 sm:grid sm:grid-cols-2">
+                <div>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <FaReact className="mr-1" /> React + TypeScript{" "}
+                      <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
+                        3 years experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[85%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        8.5
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <FaHtml5 className="mr-1" /> HTML5{" "}
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        3 years experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[95%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        9.5
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <FaCss3Alt className="mr-1" /> CSS3{" "}
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        3 years experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[90%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        9.0
+                      </span>
+                    </dd>
+                  </dl>
+
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <TbBrandJavascript className="mr-1 text-xl" /> JavaScript{" "}
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        3 years experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[85%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        8.5
+                      </span>
+                    </dd>
+                  </dl>
+                </div>
+                <div>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <SiTailwindcss className="mr-1" /> Tailwind{" "}
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        1 year experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[80%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        8.0
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <SiFirebase className="mr-1" /> Firebase
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        1 year experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[75%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        7.5
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <FaPhp className="mr-1 text-xl" /> PHP
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        1 year experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[45%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        4.5
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt className="text-lg items-center flex font-medium text-white">
+                      <SiCplusplus className="mr-1" /> C++{" "}
+                      <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        1 year experience
+                      </span>
+                    </dt>
+                    <dd className="flex items-center mb-3">
+                      <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                        <div className="bg-[#777] w-[45%] h-2.5 rounded"></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-500 ">
+                        4.5
+                      </span>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+
               <br></br>
             </div>
           </div>

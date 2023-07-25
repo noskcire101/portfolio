@@ -16,6 +16,17 @@ const HomepageHeader = () => {
             <h2 className="animate-text   pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl font-black">
               Hello, my name is Erickson. I'm a Front-End Developer
             </h2>
+            <br></br>
+            <a
+              href="tel:+639777849463"
+              className="relative px-6 pt-3 pb-4 font-bold text-black group"
+            >
+              <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
+              <span className="relative">Contact Me</span>
+            </a>
+            <br></br>
+            <br></br>
           </div>
         </div>
       </div>
