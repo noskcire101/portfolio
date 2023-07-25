@@ -16,7 +16,7 @@ const Information = () => {
                       <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                         Cavite State University Imus Campus
                       </h2>
-                      <p className="text-lg font-normal text-white mb-4">
+                      <p className="text-lg font-bold text-white mb-4">
                         Bachelor of Science in Information Technology Graduate
                         <br></br>2017 – 2020
                       </p>
@@ -25,7 +25,7 @@ const Information = () => {
                       <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                         Datacom Institute of Computer Technology
                       </h2>
-                      <p className="text-lg font-normal text-white  mb-4">
+                      <p className="text-lg font-bold text-white  mb-4">
                         Multimedia and Information Technology Graduate <br></br>
                         2015 – 2017
                       </p>

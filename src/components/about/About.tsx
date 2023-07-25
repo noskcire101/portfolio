@@ -9,7 +9,7 @@ const HomepageAbout = () => {
     <div className="wrapper bg-[#000] m-auto">
       <div className="overflow-auto relative flex flex-col w-full md:w-12/12  mx-auto px-[0%] ">
         <div className="flex  flex-wrap">
-          <div className="w-full self-center lg:w-6/12 animate-fade-up  px-10 md:px-20 py-10 ">
+          <div className="w-full self-center lg:w-6/12 animate-fade-up  px-5 md:px-10 py-10 ">
             <br></br>
 
             <h2 className="max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
@@ -45,7 +45,7 @@ const HomepageAbout = () => {
               <div className="gap-8 sm:grid sm:grid-cols-2">
                 <div>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <FaReact className="mr-1" /> React + TypeScript{" "}
                       <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
                         3 years experience
@@ -61,7 +61,7 @@ const HomepageAbout = () => {
                     </dd>
                   </dl>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <FaHtml5 className="mr-1" /> HTML5{" "}
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         3 years experience
@@ -77,7 +77,7 @@ const HomepageAbout = () => {
                     </dd>
                   </dl>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <FaCss3Alt className="mr-1" /> CSS3{" "}
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         3 years experience
@@ -94,7 +94,7 @@ const HomepageAbout = () => {
                   </dl>
 
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <TbBrandJavascript className="mr-1 text-xl" /> JavaScript{" "}
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         3 years experience
@@ -112,7 +112,7 @@ const HomepageAbout = () => {
                 </div>
                 <div>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <SiTailwindcss className="mr-1" /> Tailwind{" "}
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         1 year experience
@@ -128,7 +128,7 @@ const HomepageAbout = () => {
                     </dd>
                   </dl>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <SiFirebase className="mr-1" /> Firebase
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         1 year experience
@@ -144,7 +144,7 @@ const HomepageAbout = () => {
                     </dd>
                   </dl>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <FaPhp className="mr-1 text-xl" /> PHP
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         1 year experience
@@ -160,7 +160,7 @@ const HomepageAbout = () => {
                     </dd>
                   </dl>
                   <dl>
-                    <dt className="text-lg items-center flex font-medium text-white">
+                    <dt className="text-md items-center flex font-medium text-white">
                       <SiCplusplus className="mr-1" /> C++{" "}
                       <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                         1 year experience
