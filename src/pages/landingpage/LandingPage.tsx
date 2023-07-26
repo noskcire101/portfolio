@@ -8,6 +8,7 @@ import Socials from "../../components/socials/Socials";
 const LandingPage = () => {
   return (
     <>
+      {/* <Socials /> */}
       <Header />
 
       <About />
@@ -15,7 +16,6 @@ const LandingPage = () => {
       <Testimonials />
       <Education />
       <Projects />
-      <Socials />
     </>
   );
 };
