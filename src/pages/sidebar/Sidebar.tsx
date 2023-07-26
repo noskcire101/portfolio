@@ -3,7 +3,9 @@ import { BiLogOut } from "react-icons/bi";
 import { TfiAlignRight, TfiClose } from "react-icons/tfi";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { MdAccountBox } from "react-icons/md";
-
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiIndeed, SiGmail, SiMicrosoftoutlook } from "react-icons/si";
+import { BiSolidContact } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
 import { ReactNode } from "react";
 import styles from "./Sidebar.module.css";
@@ -39,7 +41,7 @@ const Sidebar = ({ children }: Props) => {
   return (
     <>
       <div className={styles.container}>
-        <span style={{ display: "none" }} className={styles.innerCon}>
+        <span className={styles.innerCon}>
           <div
             style={{ width: isOpen ? "250px" : "0px" }}
             className={styles.sidebar}
@@ -71,7 +73,7 @@ const Sidebar = ({ children }: Props) => {
                 style={{ display: isOpen ? "block" : "none" }}
                 className={styles.link_text}
               >
-                My Account
+                Contact Me at
               </p>
               {openSub ? (
                 <FaAngleUp className="text-lg self-center font-bold duration-1000" />
@@ -86,7 +88,18 @@ const Sidebar = ({ children }: Props) => {
               {/* <li onClick={handleClick} className="text-sm">
                 Update Information
               </li> */}
-              <li className="text-sm">LinkedIn</li>
+
+              <li className="text-sm">
+                <a href="mailto:esernero@outlook.com">Outlook</a>
+              </li>
+              <li className="text-sm">
+                <a href="mailto:esernero@gmail.com">Gmail</a>
+              </li>
+              <li className="text-sm">
+                <a href="https://www.linkedin.com/in/ericksonsernero777/">
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
         </span>
