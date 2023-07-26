@@ -45,7 +45,6 @@ const Projects = () => {
           containerClass="carousel-container"
           swipeable={true}
           draggable={true}
-          removeArrowOnDeviceType={["tablet", "mobile"]}
           itemClass="p-10 px-5 sm:pb-10 "
         >
           <div>
