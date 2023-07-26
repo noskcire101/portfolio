@@ -5,7 +5,7 @@ const Information = () => {
         <div className="container overflow-auto relative max-w-[1600px] flex flex-col w-full md:w-12/12  mx-auto px-[0%] md:px-12 ">
           <div className="flex  flex-wrap">
             <div className="w-full px-4 py-10 md:py-20">
-              <section className="bg-[#000] pb-10 bg-opacity-50">
+              <section className="bg-[#000] pb-5 bg-opacity-50">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
                   <h2 className=" max-w-full mb-10 text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
                     Educational Attainment

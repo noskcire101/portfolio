@@ -57,7 +57,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Reviews in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -112,7 +112,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -167,7 +167,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -222,7 +222,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -278,7 +278,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -333,7 +333,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -387,7 +387,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -441,7 +441,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -495,7 +495,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -549,7 +549,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -601,7 +601,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -656,7 +656,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -708,7 +708,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -764,7 +764,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -820,7 +820,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -878,7 +878,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>
@@ -933,7 +933,7 @@ const Testimonials = () => {
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                   <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                  <span className="relative">View in LinkedIn</span>
+                  <span className="relative">View Full Review in LinkedIn</span>
                 </a>
               </figure>
             </div>

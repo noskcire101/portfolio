@@ -39,7 +39,7 @@ const Sidebar = ({ children }: Props) => {
   return (
     <>
       <div className={styles.container}>
-        <span className={styles.innerCon}>
+        <span style={{ display: "none" }} className={styles.innerCon}>
           <div
             style={{ width: isOpen ? "250px" : "0px" }}
             className={styles.sidebar}
