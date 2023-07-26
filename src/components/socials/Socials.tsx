@@ -8,7 +8,7 @@ const Socials = () => {
 
   return (
     <>
-      <div data-dial-init className="fixed right-6 bottom-6 group">
+      <div data-dial-init className="fixed z-[9999] right-6 bottom-6 group">
         <div
           id="speed-dial-menu-default"
           className={
@@ -44,7 +44,7 @@ const Socials = () => {
           onClick={() => setShow(!show)}
           className={
             !show
-              ? "animate-text  bg-gradient-to-r from-[#f3f3f3] via-[#b4b4b4] to-[#686868] flex items-center justify-center transition-all rounded-full w-[62px] h-[62px] text-gray-500 hover:text-gray-900 bg-white border border-gray-200  shadow-sm dark:text-gray-400 hover:bg-gray-50"
+              ? "animate-text z-[99] bg-gradient-to-r from-[#f3f3f3] via-[#b4b4b4] to-[#686868] flex items-center justify-center transition-all rounded-full w-[62px] h-[62px] text-gray-500 hover:text-gray-900 bg-white border border-gray-200  shadow-sm dark:text-gray-400 hover:bg-gray-50"
               : " flex items-center justify-center rounded-full w-[57px] h-[57px] text-gray-500 hover:text-gray-900 bg-white border transition-all border-gray-200  shadow-sm dark:text-gray-400 hover:bg-gray-50"
           }
         >
