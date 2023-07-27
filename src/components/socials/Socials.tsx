@@ -40,17 +40,17 @@ const Socials = () => {
             <FaLinkedinIn className="w-5 h-5" />
           </a>
         </div>
-        <Flip delay={10000} triggerOnce={false}>
+        <Flip delay={5000} duration={5000}>
           <button
             type="button"
             onClick={() => setShow(!show)}
             className={
               !show
-                ? "animate-text z-[99] bg-gradient-to-r from-[#fff] via-[#b4b4b4] to-[#686868] flex items-center justify-center transition-all rounded-full w-[57px] h-[57px] text-gray-500 hover:text-gray-900 bg-white border border-gray-200  shadow-sm  hover:bg-gray-50"
-                : " flex items-center justify-center rounded-full w-[57px] h-[57px] text-gray-500 hover:text-gray-900 bg-white border transition-all border-gray-200  shadow-sm  hover:bg-gray-50"
+                ? "animate-text z-[99] bg-gradient-to-r from-[#fff] via-[#b4b4b4] to-[#686868] flex items-center justify-center transition-all rounded-full w-[57px] h-[57px] sm:w-[77px] sm:h-[77px] text-gray-500 hover:text-gray-900 bg-white border border-gray-200  shadow-sm  hover:bg-gray-50"
+                : " flex items-center justify-center rounded-full w-[57px] h-[57px] sm:w-[77px] sm:h-[77px] text-gray-500 hover:text-gray-900 bg-white border transition-all border-gray-200  shadow-sm  hover:bg-gray-50"
             }
           >
-            <BiSolidContact className="w-8 h-8" />
+            <BiSolidContact className="w-8 h-8 sm:w-10 sm:h-10" />
           </button>
         </Flip>
       </div>
