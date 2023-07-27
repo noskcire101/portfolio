@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiIndeed, SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { BiSolidContact } from "react-icons/bi";
-import { Flip } from "react-awesome-reveal";
+import { Fade, Flip, JackInTheBox } from "react-awesome-reveal";
 
 const Socials = () => {
   const [show, setShow] = useState(false);
@@ -18,29 +18,31 @@ const Socials = () => {
               : " flex-col hidden items-center  mb-4 space-y-2"
           }
         >
-          <a
-            href="mailto:esernero@outlook.com"
-            className="flex cursor-pointer justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200   shadow-sm  hover:bg-gray-50"
-          >
-            <SiMicrosoftoutlook className="w-5 h-5" />
-          </a>
+          <JackInTheBox>
+            <a
+              href="mailto:esernero@outlook.com"
+              className="flex cursor-pointer justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200   shadow-sm  hover:bg-gray-50"
+            >
+              <SiMicrosoftoutlook className="w-5 h-5" />
+            </a>
 
-          <a
-            href="mailto:esernero@gmail.com"
-            className="flex cursor-pointer justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200   shadow-sm  hover:bg-gray-50"
-          >
-            <SiGmail className="w-5 h-5" />
-          </a>
+            <a
+              href="mailto:esernero@gmail.com"
+              className="flex cursor-pointer justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200   shadow-sm  hover:bg-gray-50"
+            >
+              <SiGmail className="w-5 h-5" />
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/ericksonsernero777/"
-            target="_blank"
-            className="flex cursor-pointer justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200   shadow-sm  hover:bg-gray-50"
-          >
-            <FaLinkedinIn className="w-5 h-5" />
-          </a>
+            <a
+              href="https://www.linkedin.com/in/ericksonsernero777/"
+              target="_blank"
+              className="flex cursor-pointer justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200   shadow-sm  hover:bg-gray-50"
+            >
+              <FaLinkedinIn className="w-5 h-5" />
+            </a>
+          </JackInTheBox>
         </div>
-        <Flip delay={5000} duration={5000}>
+        <Flip delay={5000} duration={3000}>
           <button
             type="button"
             onClick={() => setShow(!show)}
