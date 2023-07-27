@@ -10,7 +10,7 @@ const Information = () => {
               <section className="bg-[#000] pb-5 bg-opacity-50">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 overflow-hidden">
                   <Fade direction="up">
-                    <h2 className=" max-w-full mb-10 text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#383838] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
+                    <h2 className=" max-w-full mb-10 text-center bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
                       Educational Attainment
                     </h2>
                   </Fade>

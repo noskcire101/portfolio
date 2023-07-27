@@ -34,7 +34,7 @@ const Projects = () => {
     <>
       <div className="bg-[#000] py-20">
         <Fade cascade damping={0.1} direction="up">
-          <h2 className=" max-w-full text-center  bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#383838] bg-clip-text text-transparent text-4xl pb-5 sm:text-5xl  lg:text-7xl  font-black">
+          <h2 className=" max-w-full text-center  bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl pb-5 sm:text-5xl  lg:text-7xl  font-black">
             Sample Projects
           </h2>
         </Fade>
