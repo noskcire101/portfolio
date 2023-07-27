@@ -54,10 +54,10 @@ const HomepageAbout = () => {
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
-                          <div className="bg-[#777] w-[85%] h-2.5 rounded"></div>
+                          <div className="bg-[#777] w-[80%] h-2.5 rounded"></div>
                         </div>
                         <span className="text-sm font-medium text-gray-500 ">
-                          8.5
+                          8.0
                         </span>
                       </dd>
                     </dl>
@@ -70,10 +70,10 @@ const HomepageAbout = () => {
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
-                          <div className="bg-[#777] w-[95%] h-2.5 rounded"></div>
+                          <div className="bg-[#777] w-[90%] h-2.5 rounded"></div>
                         </div>
                         <span className="text-sm font-medium text-gray-500 ">
-                          9.5
+                          9.0
                         </span>
                       </dd>
                     </dl>
@@ -104,10 +104,10 @@ const HomepageAbout = () => {
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
-                          <div className="bg-[#777] w-[85%] h-2.5 rounded"></div>
+                          <div className="bg-[#777] w-[80%] h-2.5 rounded"></div>
                         </div>
                         <span className="text-sm font-medium text-gray-500 ">
-                          8.5
+                          8.0
                         </span>
                       </dd>
                     </dl>
