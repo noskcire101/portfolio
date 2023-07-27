@@ -51,7 +51,7 @@ const Projects = () => {
           itemClass="p-10 px-5 sm:pb-10 "
         >
           <div>
-            <article className="overflow-hidden bg-[#101010] rounded-lg shadow-lg">
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
                 href="https://pet-adoption-erickson.vercel.app/"
                 target="_blank"
@@ -100,7 +100,7 @@ const Projects = () => {
             </article>
           </div>
           <div>
-            <article className="overflow-hidden bg-[#101010] rounded-lg shadow-lg">
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
                 href="https://nickmurphyboston.com.teamluxurypresence.com/"
                 target="_blank"
@@ -147,7 +147,7 @@ const Projects = () => {
             </article>
           </div>
           <div>
-            <article className="overflow-hidden bg-[#101010] rounded-lg shadow-lg">
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
                 href="https://preview-w-5f3c8da36eb9ec01b687c9d6.teamluxurypresence.com/"
                 target="_blank"
@@ -196,7 +196,7 @@ const Projects = () => {
             </article>
           </div>
           <div>
-            <article className="overflow-hidden bg-[#101010] rounded-lg shadow-lg">
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
                 href="https://preview-w-5fcee97b58e8c301b64f4953.teamluxurypresence.com/"
                 target="_blank"
@@ -243,7 +243,7 @@ const Projects = () => {
             </article>
           </div>
           <div>
-            <article className="overflow-hidden bg-[#101010] rounded-lg shadow-lg">
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
                 href="https://preview-w-5c922393b51fdc0167ae3b43.teamluxurypresence.com/"
                 target="_blank"
@@ -290,7 +290,7 @@ const Projects = () => {
             </article>
           </div>
           <div>
-            <article className="overflow-hidden bg-[#101010] rounded-lg shadow-lg">
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
                 href="https://preview-w-5d378efbdbdf6d016e4939b6.teamluxurypresence.com/"
                 target="_blank"
