@@ -14,8 +14,8 @@ const Socials = () => {
           id="speed-dial-menu-default"
           className={
             show
-              ? "flex flex-col items-center  mb-4 space-y-2"
-              : " flex-col hidden items-center  mb-4 space-y-2"
+              ? "flex flex-col items-center transition-all mb-4 space-y-2"
+              : " flex-col hidden items-center transition-all  mb-4 space-y-2"
           }
         >
           <JackInTheBox>
@@ -42,7 +42,7 @@ const Socials = () => {
             </a>
           </JackInTheBox>
         </div>
-        <Flip delay={5000} duration={3000}>
+        <Flip delay={5000} duration={2000}>
           <button
             type="button"
             onClick={() => setShow(!show)}
