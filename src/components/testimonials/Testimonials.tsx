@@ -1,12 +1,15 @@
 import { Carousel } from "flowbite-react";
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const Testimonials = () => {
   return (
-    <div className="wrapper h-[780px] bg-[#101010] py-[70px] m-auto pb-[13vh]">
-      <h2 className=" max-w-full text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
-        Recommendations
-      </h2>
+    <div className="wrapper h-[780px] bg-[#101010] py-[70px] m-auto pb-[13vh] overflow-hidden ">
+      <Fade cascade damping={0.1} direction="right">
+        <h2 className=" max-w-full text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#383838] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
+          Recommendations
+        </h2>
+      </Fade>
       <Carousel slideInterval={10000}>
         <div className="flex h-full  items-center justify-center bg-[#101010]">
           <section className="bg-[#101010] textContainer">
@@ -63,6 +66,7 @@ const Testimonials = () => {
             </div>
           </section>
         </div>
+
         <div className="flex h-full  items-center justify-center bg-[#101010]">
           <section className="bg-[#101010] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">

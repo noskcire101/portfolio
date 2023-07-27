@@ -1,3 +1,5 @@
+import { Fade } from "react-awesome-reveal";
+
 const Information = () => {
   return (
     <>
@@ -6,31 +8,34 @@ const Information = () => {
           <div className="flex  flex-wrap">
             <div className="w-full px-4 py-10 md:py-20">
               <section className="bg-[#000] pb-5 bg-opacity-50">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-                  <h2 className=" max-w-full mb-10 text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
-                    Educational Attainment
-                  </h2>
+                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 overflow-hidden">
+                  <Fade cascade damping={0.1} direction="up">
+                    <h2 className=" max-w-full mb-10 text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#383838] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
+                      Educational Attainment
+                    </h2>
 
-                  <div className="grid md:grid-cols-2 gap-8">
-                    <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
-                      <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
-                        Cavite State University Imus Campus
-                      </h2>
-                      <p className="text-lg font-bold text-white mb-4">
-                        Bachelor of Science in Information Technology Graduate
-                        <br></br>2017 – 2020
-                      </p>
+                    <div className="grid md:grid-cols-2 gap-8">
+                      <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
+                        <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
+                          Cavite State University Imus Campus
+                        </h2>
+                        <p className="text-lg font-bold text-white mb-4">
+                          Bachelor of Science in Information Technology Graduate
+                          <br></br>2017 – 2020
+                        </p>
+                      </div>
+                      <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
+                        <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
+                          Datacom Institute of Computer Technology
+                        </h2>
+                        <p className="text-lg font-bold text-white  mb-4">
+                          Multimedia and Information Technology Graduate{" "}
+                          <br></br>
+                          2015 – 2017
+                        </p>
+                      </div>
                     </div>
-                    <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
-                      <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
-                        Datacom Institute of Computer Technology
-                      </h2>
-                      <p className="text-lg font-bold text-white  mb-4">
-                        Multimedia and Information Technology Graduate <br></br>
-                        2015 – 2017
-                      </p>
-                    </div>
-                  </div>
+                  </Fade>
                 </div>
               </section>
             </div>
