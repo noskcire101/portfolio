@@ -9,12 +9,13 @@ const Information = () => {
             <div className="w-full px-4 py-10 md:py-20">
               <section className="bg-[#000] pb-5 bg-opacity-50">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 overflow-hidden">
-                  <Fade cascade damping={0.1} direction="up">
+                  <Fade direction="up">
                     <h2 className=" max-w-full mb-10 text-center bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#383838] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
                       Educational Attainment
                     </h2>
-
-                    <div className="grid md:grid-cols-2 gap-8">
+                  </Fade>
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <Fade direction="up">
                       <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
                         <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                           Cavite State University Imus Campus
@@ -24,6 +25,8 @@ const Information = () => {
                           <br></br>2017 – 2020
                         </p>
                       </div>
+                    </Fade>
+                    <Fade direction="up">
                       <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
                         <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                           Datacom Institute of Computer Technology
@@ -34,8 +37,8 @@ const Information = () => {
                           2015 – 2017
                         </p>
                       </div>
-                    </div>
-                  </Fade>
+                    </Fade>
+                  </div>
                 </div>
               </section>
             </div>
