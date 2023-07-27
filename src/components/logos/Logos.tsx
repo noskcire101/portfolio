@@ -31,6 +31,7 @@ const Logos = () => {
     <>
       <div className="bg-[#171717] py-2">
         <Carousel
+          customTransition={"transform 3500ms"}
           showDots={false}
           responsive={responsive}
           infinite={true}

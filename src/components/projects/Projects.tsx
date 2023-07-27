@@ -40,7 +40,7 @@ const Projects = () => {
         </Fade>
 
         <Carousel
-          customTransition={"transform 1000ms ease-in"}
+          customTransition={"transform 1000ms"}
           responsive={responsive}
           infinite={true}
           autoPlay={true}
