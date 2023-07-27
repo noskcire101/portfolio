@@ -14,7 +14,7 @@ const HomepageHeader = () => {
             />
           </div>
 
-          <div className="  w-full self-center lg:w-6/12 px-10 md:px-20 py-10 overflow-hidden ">
+          <div className="  w-full self-center lg:w-6/12 px-10 md:px-10 py-10 overflow-hidden ">
             <Fade cascade damping={0.1} direction="right">
               <h2 className="animate-text   pb-10 bg-gradient-to-r from-[#f3f3f3] via-[#535353] to-[#383838] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl font-black">
                 Hello, my name is Erickson. I'm a Web Developer
