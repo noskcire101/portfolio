@@ -29,9 +29,9 @@ const HomepageAbout = () => {
                     Luxury Presence, Inc (April 2020 – May 2023)
                   </p>
                   <ul className="space-y-1 list-disc font-medium text-lg list-inside">
-                    <li>Build websites using company owned platform</li>
-                    <li>Maintaining CSS injection library for the team</li>
-                    <li>Provide support & learning sessions for the Team</li>
+                    <li>Build Websites</li>
+                    <li>Maintaining CSS injection library</li>
+                    <li>Provide support & learning sessions</li>
                     <li>Assist in Training</li>
                     <li>Assist with SOP update</li>
                   </ul>
