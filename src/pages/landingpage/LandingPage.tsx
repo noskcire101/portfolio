@@ -5,13 +5,14 @@ import Testimonials from "../../components/testimonials/Testimonials";
 import Education from "../../components/education/Education";
 import Projects from "../../components/projects/Projects";
 import Socials from "../../components/socials/Socials";
+import Logos from "../../components/logos/Logos";
 const LandingPage = () => {
   return (
     <>
       <Header />
 
       <About />
-
+      <Logos />
       <Testimonials />
       <Education />
       <Projects />

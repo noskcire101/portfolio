@@ -48,9 +48,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <FaReact className="mr-1" /> React + TypeScript{" "}
-                        <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
+                        {/* <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
                           3 years experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -64,9 +64,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <FaHtml5 className="mr-1" /> HTML5{" "}
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           3 years experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -80,9 +80,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <FaCss3Alt className="mr-1" /> CSS3{" "}
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           3 years experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -98,9 +98,9 @@ const HomepageAbout = () => {
                       <dt className="text-md items-center flex font-medium text-white">
                         <TbBrandJavascript className="mr-1 text-xl" />{" "}
                         JavaScript{" "}
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           3 years experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -116,9 +116,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <SiTailwindcss className="mr-1" /> Tailwind{" "}
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           1 year experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -132,9 +132,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <SiFirebase className="mr-1" /> Firebase
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           1 year experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -148,9 +148,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <FaPhp className="mr-1 text-xl" /> PHP
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           1 year experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
@@ -164,9 +164,9 @@ const HomepageAbout = () => {
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <SiCplusplus className="mr-1" /> C++{" "}
-                        <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           1 year experience
-                        </span>
+                        </span> */}
                       </dt>
                       <dd className="flex items-center mb-3">
                         <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
