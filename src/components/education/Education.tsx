@@ -16,7 +16,7 @@ const Information = () => {
                   </Fade>
                   <div className="grid md:grid-cols-2 gap-8">
                     <Fade direction="up">
-                      <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
+                      <div className="bg-[#171717]  rounded-lg p-8 md:p-12">
                         <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                           Cavite State University Imus Campus
                         </h2>
@@ -27,7 +27,7 @@ const Information = () => {
                       </div>
                     </Fade>
                     <Fade direction="up">
-                      <div className="bg-[#101010]  rounded-lg p-8 md:p-12">
+                      <div className="bg-[#171717]  rounded-lg p-8 md:p-12">
                         <h2 className="text-white text-xl sm:text-3xl font-extrabold mb-2">
                           Datacom Institute of Computer Technology
                         </h2>

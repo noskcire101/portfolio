@@ -4,7 +4,7 @@ import { Fade, Slide, Zoom } from "react-awesome-reveal";
 const HomepageHeader = () => {
   return (
     // wrapper
-    <div className="wrapper   bg-[#101010]  pb-15 pt-[65px] m-auto">
+    <div className="wrapper   bg-[#171717]  pb-15 pt-[65px] m-auto">
       <div className="container overflow-auto relative max-w-[1600px] flex flex-col w-full md:w-12/12  mx-auto px-[0%] md:px-12 ">
         <div className="flex  flex-wrap">
           <div className="w-full lg:w-6/12 px-4 pt-10 md:py-20">
