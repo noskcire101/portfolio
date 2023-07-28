@@ -5,7 +5,7 @@ const Loader = () => {
     <div
       id="loading-screen"
       style={{ zIndex: "80" }}
-      className=" w-full h-full fixed block top-0 left-0 bg-[#ffffff9f]"
+      className=" w-full h-full fixed block top-0 left-0 bg-opacity-90 bg-[#101010]"
     >
       <svg
         className="w-8 h-full m-auto text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
