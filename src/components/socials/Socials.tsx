@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiIndeed, SiGmail, SiMicrosoftoutlook } from "react-icons/si";
+import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { BiSolidContact } from "react-icons/bi";
-import { Fade, Flip, JackInTheBox } from "react-awesome-reveal";
+import { Flip, JackInTheBox } from "react-awesome-reveal";
 
 const Socials = () => {
   const [show, setShow] = useState(false);
@@ -42,7 +42,7 @@ const Socials = () => {
             </a>
           </JackInTheBox>
         </div>
-        <Flip delay={5000} duration={2000}>
+        <Flip delay={5000} duration={1000}>
           <button
             type="button"
             onClick={() => setShow(!show)}

@@ -4,7 +4,16 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaReact, FaCss3Alt, FaHtml5, FaPhp } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
-import { SiCplusplus, SiTailwindcss, SiFirebase } from "react-icons/si";
+import {
+  SiCplusplus,
+  SiTailwindcss,
+  SiFirebase,
+  SiVisualstudiocode,
+  SiAdobephotoshop,
+} from "react-icons/si";
+import { GrNode } from "react-icons/gr";
+import { BsGit, BsGithub } from "react-icons/bs";
+import { TbBrandTypescript } from "react-icons/tb";
 
 const Logos = () => {
   const responsive = {
@@ -45,20 +54,42 @@ const Logos = () => {
           <div>
             <FaReact className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
+
+          <div>
+            <SiVisualstudiocode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+          <div>
+            <GrNode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+          <div>
+            <BsGit className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+          <div>
+            <BsGithub className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+          <div>
+            <TbBrandTypescript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+
+          <div>
+            <TbBrandJavascript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />
+          </div>
+
           <div>
             <FaHtml5 className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
           <div>
             <FaCss3Alt className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
-          <div>
-            <TbBrandJavascript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />
-          </div>
+
           <div>
             <SiTailwindcss className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />
           </div>
           <div>
             <SiFirebase className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+          <div>
+            <SiAdobephotoshop className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
           <div>
             <FaPhp className="text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />

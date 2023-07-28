@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import About from "../../components/about/About";
+import Skills from "../../components/skills/Skills";
 import Testimonials from "../../components/testimonials/Testimonials";
 import Education from "../../components/education/Education";
 import Projects from "../../components/projects/Projects";
@@ -11,7 +11,7 @@ const LandingPage = () => {
     <>
       <Header />
 
-      <About />
+      <Skills />
       <Logos />
       <Testimonials />
       <Education />

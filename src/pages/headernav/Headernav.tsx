@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Headernav = () => {
   return (
     <>
       <nav className="z-50  bg-[#000] min-w-[345px] fixed h-[65px] w-full">
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Headernav;

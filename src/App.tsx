@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Sidebar from "./pages/sidebar/Sidebar";
-import Header from "./pages/header/Header";
+import Headernav from "./pages/headernav/Headernav";
 import LandingPage from "./pages/landingpage/LandingPage";
 import { Route, Routes } from "react-router-dom";
 import NotFoundPage from "./pages/notfoundpage/NotFoundPage";
@@ -10,7 +10,7 @@ import NotFoundPage from "./pages/notfoundpage/NotFoundPage";
 function App() {
   return (
     <Sidebar>
-      <Header />
+      <Headernav />
       <Routes>
         {/* <Route element={<LoginRoutes />}> */}
         <Route path="/">
