@@ -17,7 +17,7 @@ const LandingPage = () => {
   useEffect(() => {
     window.addEventListener("load", handleLoading);
     return () => window.removeEventListener("load", handleLoading);
-  }, []);
+  }, [isLoading]);
 
   return !isLoading ? (
     <>
