@@ -157,6 +157,28 @@ const Skills = () => {
                     </dl>
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
+                        <TbBrandJavascript className="mr-1 text-xl" />{" "}
+                        JavaScript{" "}
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                          3 years experience
+                        </span> */}
+                      </dt>
+                      <dd className="flex items-center mb-3">
+                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                          <Progress
+                            color="dark"
+                            className="transition-all"
+                            progress={progress4}
+                            size="md"
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-gray-500 ">
+                          {progress4}%
+                        </span>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt className="text-md items-center flex font-medium text-white">
                         <BsGit /> & <BsGithub className="mr-1" /> Git & Github{" "}
                         {/* <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
                           3 years experience
@@ -176,6 +198,51 @@ const Skills = () => {
                         </span>
                       </dd>
                     </dl>
+                    <dl>
+                      <dt className="text-md items-center flex font-medium text-white">
+                        <SiFirebase className="mr-1" /> Firebase
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                          1 year experience
+                        </span> */}
+                      </dt>
+                      <dd className="flex items-center mb-3">
+                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                          <Progress
+                            color="dark"
+                            className="transition-all"
+                            progress={progress6}
+                            size="md"
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-gray-500 ">
+                          {progress6}%
+                        </span>
+                      </dd>
+                    </dl>
+
+                    <dl>
+                      <dt className="text-md items-center flex font-medium text-white">
+                        <SiVisualstudiocode className="mr-1" /> VS Code{" "}
+                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+                          1 year experience
+                        </span> */}
+                      </dt>
+                      <dd className="flex items-center mb-3">
+                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                          <Progress
+                            color="dark"
+                            className="transition-all"
+                            progress={progress5}
+                            size="md"
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-gray-500 ">
+                          {progress5}%
+                        </span>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div>
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <FaHtml5 className="mr-1" /> HTML5{" "}
@@ -218,55 +285,9 @@ const Skills = () => {
                         </span>
                       </dd>
                     </dl>
-
-                    <dl>
-                      <dt className="text-md items-center flex font-medium text-white">
-                        <TbBrandJavascript className="mr-1 text-xl" />{" "}
-                        JavaScript{" "}
-                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
-                          3 years experience
-                        </span> */}
-                      </dt>
-                      <dd className="flex items-center mb-3">
-                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
-                          <Progress
-                            color="dark"
-                            className="transition-all"
-                            progress={progress4}
-                            size="md"
-                          />
-                        </div>
-                        <span className="text-sm font-medium text-gray-500 ">
-                          {progress4}%
-                        </span>
-                      </dd>
-                    </dl>
-                  </div>
-                  <div>
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <SiTailwindcss className="mr-1" /> Tailwind{" "}
-                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
-                          1 year experience
-                        </span> */}
-                      </dt>
-                      <dd className="flex items-center mb-3">
-                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
-                          <Progress
-                            color="dark"
-                            className="transition-all"
-                            progress={progress5}
-                            size="md"
-                          />
-                        </div>
-                        <span className="text-sm font-medium text-gray-500 ">
-                          {progress5}%
-                        </span>
-                      </dd>
-                    </dl>
-                    <dl>
-                      <dt className="text-md items-center flex font-medium text-white">
-                        <SiVisualstudiocode className="mr-1" /> VS Code{" "}
                         {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
                           1 year experience
                         </span> */}
@@ -306,27 +327,7 @@ const Skills = () => {
                         </span>
                       </dd>
                     </dl>
-                    <dl>
-                      <dt className="text-md items-center flex font-medium text-white">
-                        <SiFirebase className="mr-1" /> Firebase
-                        {/* <span className="text-[10px] ml-2 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
-                          1 year experience
-                        </span> */}
-                      </dt>
-                      <dd className="flex items-center mb-3">
-                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
-                          <Progress
-                            color="dark"
-                            className="transition-all"
-                            progress={progress6}
-                            size="md"
-                          />
-                        </div>
-                        <span className="text-sm font-medium text-gray-500 ">
-                          {progress6}%
-                        </span>
-                      </dd>
-                    </dl>
+
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
                         <FaPhp className="mr-1 text-xl" /> PHP

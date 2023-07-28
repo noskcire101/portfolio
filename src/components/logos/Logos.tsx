@@ -54,12 +54,15 @@ const Logos = () => {
           <div>
             <FaReact className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
+          <div>
+            <TbBrandTypescript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
 
           <div>
-            <SiVisualstudiocode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+            <GrNode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
           <div>
-            <GrNode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+            <TbBrandJavascript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />
           </div>
           <div>
             <BsGit className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
@@ -68,11 +71,7 @@ const Logos = () => {
             <BsGithub className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
           <div>
-            <TbBrandTypescript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
-          </div>
-
-          <div>
-            <TbBrandJavascript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />
+            <SiVisualstudiocode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
 
           <div>
