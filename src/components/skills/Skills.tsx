@@ -88,6 +88,11 @@ const Skills = () => {
                 <br></br>
               </div>
             </Fade>
+            <Fade cascade damping={0.1} direction="left">
+              <h2 className=" max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
+                Technical Skills
+              </h2>
+            </Fade>
             <Fade
               onVisibilityChange={() => {
                 setProgress1(1);
@@ -103,9 +108,6 @@ const Skills = () => {
               damping={0.1}
               direction="left"
             >
-              <h2 className=" max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
-                Technical Skills
-              </h2>
               <div className="mx-auto max-w-[700px]">
                 <div className="gap-8 sm:grid sm:grid-cols-2">
                   <div>
