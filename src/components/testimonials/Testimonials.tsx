@@ -1,6 +1,7 @@
-import { Carousel } from "flowbite-react";
+import { Carousel, CustomFlowbiteTheme } from "flowbite-react";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import { TfiLayoutWidthDefault } from "react-icons/tfi";
 
 const Testimonials = () => {
   return (
@@ -50,6 +51,62 @@ const Testimonials = () => {
                     </div>
                     <div className="pl-3 text-sm font-light text-white ">
                       Design Product Manager
+                    </div>
+                  </div>
+                </figcaption>
+                <a
+                  href="https://www.linkedin.com/in/ericksonsernero777/"
+                  target="_blank"
+                  className="relative px-6 pt-3 pb-4 font-bold text-black group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                  <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
+                  <span className="relative">View Full Review in LinkedIn</span>
+                </a>
+              </figure>
+            </div>
+          </section>
+        </div>
+        <div className="flex h-full  items-center justify-center bg-[#000]">
+          <section className="bg-[#000] textContainer">
+            <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
+              <figure className="max-w-screen-md mx-auto">
+                <svg
+                  className="h-12 mx-auto mb-3 text-white"
+                  viewBox="0 0 24 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <blockquote>
+                  <p className="text-md  sm:text-2xl font-medium text-white">
+                    I highly recommend Erickson. Website builder product expert
+                    was the highest role within the website builder career
+                    matrix and Erickson set super high standards for those to
+                    follow in his footsteps. Erickson is thoughtful, creative,
+                    resourceful, and always willing to help. Ericksons level of
+                    knowledge is vast and surpassed several members of the team.
+                    Erickson is a kind and professional person as well. He’s an
+                    excellent person to work with and always went above and
+                    beyond what was expected of him...
+                  </p>
+                </blockquote>
+                <figcaption className="flex items-center justify-center mt-6 mb-10 space-x-3">
+                  <img
+                    className="w-6 h-6 rounded-full"
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Frecommendations%2Feliana.jpg?alt=media&token=36a3e431-eeaa-4e6a-95f5-bcb57e6d8df1"
+                    alt="profile picture"
+                  />
+                  <div className="flex items-center divide-x-2 divide-[#f9f9f9] ">
+                    <div className="pr-3 font-medium text-sm text-white">
+                      Eliana Kinneman
+                    </div>
+                    <div className="pl-3 text-sm font-light text-white ">
+                      Design Product Coordinator
                     </div>
                   </div>
                 </figcaption>
