@@ -50,7 +50,7 @@ const Testimonials = () => {
                       Chloe Trang
                     </div>
                     <div className="pl-3 text-sm font-light text-white ">
-                      Design Product Manager
+                      Design Project Manager
                     </div>
                   </div>
                 </figcaption>
@@ -106,7 +106,7 @@ const Testimonials = () => {
                       Eliana Kinneman
                     </div>
                     <div className="pl-3 text-sm font-light text-white ">
-                      Design Product Coordinator
+                      Design Project Coordinator
                     </div>
                   </div>
                 </figcaption>
@@ -217,7 +217,7 @@ const Testimonials = () => {
                       William Howard
                     </div>
                     <div className="pl-3 text-sm font-light text-white ">
-                      Design Product Coordinator
+                      Design Project Coordinator
                     </div>
                   </div>
                 </figcaption>
