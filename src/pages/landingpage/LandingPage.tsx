@@ -11,7 +11,7 @@ import Loader from "../../components/loader/loader";
 const LandingPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setIsLoading(false), 4000);
+    setTimeout(() => setIsLoading(false), 5000);
   }, []);
 
   return (
