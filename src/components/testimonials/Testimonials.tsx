@@ -723,7 +723,7 @@ const Testimonials = () => {
             </div>
           </section>
         </div>
-        {/* <div className="flex h-full items-center justify-center bg-[#000]">
+        <div className="flex h-full items-center justify-center bg-[#000]">
           <section className="bg-[#000] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
@@ -774,7 +774,7 @@ const Testimonials = () => {
               </figure>
             </div>
           </section>
-        </div> */}
+        </div>
         <div className="flex h-full items-center justify-center bg-[#000]">
           <section className="bg-[#000] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
@@ -946,7 +946,7 @@ const Testimonials = () => {
           </section>
         </div>
 
-        {/* <div className="flex h-full items-center justify-center bg-[#000]">
+        <div className="flex h-full items-center justify-center bg-[#000]">
           <section className="bg-[#000] textContainer">
             <div className="max-w-screen-xl px-4 pb-8 mx-auto text-center lg:pb-16 lg:px-6">
               <figure className="max-w-screen-md mx-auto">
@@ -999,7 +999,7 @@ const Testimonials = () => {
               </figure>
             </div>
           </section>
-        </div> */}
+        </div>
       </Carousel>
     </div>
   );
