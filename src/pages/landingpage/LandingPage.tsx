@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Header from "../../components/header/Header";
+import HomepageHeader from "../../components/header/Header";
 import Skills from "../../components/skills/Skills";
 import Testimonials from "../../components/testimonials/Testimonials";
 import Education from "../../components/education/Education";
@@ -14,9 +14,16 @@ const LandingPage = () => {
     setTimeout(() => setIsLoading(false), 5000);
   }, []);
 
+  let delaytime = 4000;
+  if (isLoading) {
+    delaytime = 4000;
+  } else {
+    delaytime = 0;
+  }
+
   return (
     <>
-      <Header />
+      <HomepageHeader delaytime={delaytime} />
 
       <Skills />
       <Logos />

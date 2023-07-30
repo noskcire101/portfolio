@@ -1,7 +1,10 @@
-import React from "react";
-import { Fade, Slide, Zoom } from "react-awesome-reveal";
+import { Fade, JackInTheBox } from "react-awesome-reveal";
 
-const HomepageHeader = () => {
+interface Props {
+  delaytime: number;
+}
+
+const HomepageHeader = ({ delaytime }: Props) => {
   return (
     // wrapper
     <div className="wrapper bg-black bg-fixed ... bg-[url('https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2FElement%20BG%20(1)%20(1)%20(2).jpg?alt=media&token=3b9f6de7-a76d-4a61-99ce-9ecc8b100428')]  pb-15 pt-[65px] m-auto">
@@ -15,7 +18,7 @@ const HomepageHeader = () => {
           </div>
 
           <div className="  w-full self-center lg:w-6/12 px-10 md:px-10 py-10 overflow-hidden ">
-            <Fade cascade damping={0.1} direction="right">
+            <Fade cascade damping={0.1} delay={delaytime} direction="right">
               <h2 className="animate-text   pb-10 bg-gradient-to-r from-[#fff] via-[#6e6e6e] to-[#464646] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl font-black">
                 Hello, my name is Erickson. I'm a Web Developer
               </h2>
