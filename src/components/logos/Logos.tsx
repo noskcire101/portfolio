@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaReact, FaCss3Alt, FaHtml5, FaPhp } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandRedux } from "react-icons/tb";
 import {
   SiCplusplus,
   SiTailwindcss,
@@ -54,6 +54,10 @@ const Logos = () => {
           <div>
             <FaReact className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
+          <div>
+            <TbBrandRedux className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+
           <div>
             <TbBrandTypescript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>

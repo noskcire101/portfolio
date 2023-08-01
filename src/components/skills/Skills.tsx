@@ -136,7 +136,6 @@ const Skills = () => {
                     </dl>
                     <dl>
                       <dt className="text-md items-center flex font-medium text-white">
-                        <FaReact />+
                         <TbBrandRedux className="mr-1" /> Redux Toolkit{" "}
                         {/* <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
                           3 years experience
