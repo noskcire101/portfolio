@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaReact, FaCss3Alt, FaHtml5, FaPhp } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandRedux } from "react-icons/tb";
 import {
   SiCplusplus,
   SiTailwindcss,
@@ -116,6 +116,28 @@ const Skills = () => {
                         <FaReact />+
                         <TbBrandTypescript className="mr-1" /> React +
                         TypeScript{" "}
+                        {/* <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
+                          3 years experience
+                        </span> */}
+                      </dt>
+                      <dd className="flex items-center mb-3">
+                        <div className="w-full bg-gray-200 rounded h-2.5  mr-2">
+                          <Progress
+                            color="dark"
+                            className="transition-all"
+                            progress={progress1}
+                            size="md"
+                          />
+                        </div>
+                        <span className="text-sm font-medium text-gray-500 ">
+                          {progress1}%
+                        </span>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt className="text-md items-center flex font-medium text-white">
+                        <FaReact />+
+                        <TbBrandRedux className="mr-1" /> Redux Toolkit{" "}
                         {/* <span className=" ml-2 text-white text-[10px] font-medium mr-2 px-2.5 py-0 rounded">
                           3 years experience
                         </span> */}

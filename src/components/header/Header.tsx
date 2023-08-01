@@ -25,12 +25,12 @@ const HomepageHeader = ({ delaytime }: Props) => {
 
               <br></br>
               <a
-                href="tel:+639777849463"
+                href="mailto:esernero@gmail.com"
                 className="relative px-6 pt-3 pb-4 font-bold text-black group"
               >
                 <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-1 -translate-y-1 bg-[#fff] group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full border-4 border-[#777]"></span>
-                <span className="relative">Contact Me</span>
+                <span className="relative">Email Me</span>
               </a>
             </Fade>
             <br></br>
