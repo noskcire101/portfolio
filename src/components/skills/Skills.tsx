@@ -146,12 +146,12 @@ const Skills = () => {
                           <Progress
                             color="dark"
                             className="transition-all"
-                            progress={progress1}
+                            progress={progress6}
                             size="md"
                           />
                         </div>
                         <span className="text-sm font-medium text-gray-500 ">
-                          {progress1}%
+                          {progress6}%
                         </span>
                       </dd>
                     </dl>
