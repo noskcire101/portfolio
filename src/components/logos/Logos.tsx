@@ -10,6 +10,7 @@ import {
   SiFirebase,
   SiVisualstudiocode,
   SiAdobephotoshop,
+  SiMongodb,
 } from "react-icons/si";
 import { GrNode } from "react-icons/gr";
 import { BsGit, BsGithub } from "react-icons/bs";
@@ -64,6 +65,9 @@ const Logos = () => {
 
           <div>
             <GrNode className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
+          </div>
+          <div>
+            <SiMongodb className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px] text-white" />
           </div>
           <div>
             <TbBrandJavascript className=" text-[70px] m-auto sm:text-[90px] lg:text-[100px]  text-white" />
