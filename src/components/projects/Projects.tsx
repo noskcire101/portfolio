@@ -10,6 +10,14 @@ const Projects = () => {
   const [viewMoreShow3, setViewMoreShow3] = useState({ display: "none" });
   const [viewMoreShow4, setViewMoreShow4] = useState({ display: "none" });
   const [viewMoreShow5, setViewMoreShow5] = useState({ display: "none" });
+  const [viewMoreShowa, setViewMoreShowa] = useState({ display: "none" });
+  const [viewMoreShowb, setViewMoreShowb] = useState({ display: "none" });
+  const [viewMoreShowc, setViewMoreShowc] = useState({ display: "none" });
+  const [viewMoreShowd, setViewMoreShowd] = useState({ display: "none" });
+  const [viewMoreShowe, setViewMoreShowe] = useState({ display: "none" });
+  const [viewMoreShowf, setViewMoreShowf] = useState({ display: "none" });
+  const [viewMoreShowg, setViewMoreShowg] = useState({ display: "none" });
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -102,6 +110,55 @@ const Projects = () => {
           <div>
             <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
+                href="https://u9u5z5f4.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowa({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowa({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FDicker%20Morin%20Group.png?alt=media&token=466b1ccc-92c7-4953-8bf9-98ced9d35068"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowa}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowa}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">
+                    Dicker Morin Group
+                  </div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
                 href="https://nickmurphyboston.com.teamluxurypresence.com/"
                 target="_blank"
                 onMouseEnter={(e) => {
@@ -131,6 +188,53 @@ const Projects = () => {
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
                 <h1 className="text-lg  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Nick Murphy</div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
+                href="https://i6y3f2p6.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowb({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowb({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FBlair%20Heath.png?alt=media&token=7bbb89ff-9551-46ba-8d03-d5fb48fe82b4"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowb}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowb}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">Blair Heath</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
                   <div className="inline-flex   items-center">
@@ -198,6 +302,53 @@ const Projects = () => {
           <div>
             <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
+                href="https://n9a4q2e4.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowc({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowc({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FKim%20Warden.png?alt=media&token=c03d083f-4520-458e-8660-3ce7da30e8d4"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowc}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowc}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">Kim Warden</div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
                 href="https://preview-w-5fcee97b58e8c301b64f4953.teamluxurypresence.com/"
                 target="_blank"
                 onMouseEnter={(e) => {
@@ -227,6 +378,53 @@ const Projects = () => {
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
                 <h1 className="text-lg  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Gretchen Swall</div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
+                href="https://x6d2a3b8.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowd({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowd({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FSuzzan%20SCott.png?alt=media&token=8cbfda1d-031b-4f86-80ce-d25c7fd6f2cb"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowd}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowd}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">Suzzane Scott</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
                   <div className="inline-flex   items-center">
@@ -292,6 +490,53 @@ const Projects = () => {
           <div>
             <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
               <a
+                href="https://j2p5w6q6.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowe({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowe({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FMaryllen%20Griffin.png?alt=media&token=66cf5afd-513f-4dc3-9602-5e2a36c93c8a"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowe}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowe}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">Maryellen Griffin</div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
                 href="https://preview-w-5d378efbdbdf6d016e4939b6.teamluxurypresence.com/"
                 target="_blank"
                 onMouseEnter={(e) => {
@@ -323,6 +568,100 @@ const Projects = () => {
                   <div className=" text-white font-bold">
                     Patek + Jones Group
                   </div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
+                href="https://m6c9y6n2.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowf({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowf({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FLuisa%20Defeo.png?alt=media&token=6348ab75-c9b7-4788-8def-ed106740b60b"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowf}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowf}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">Luisa Defeo</div>
+                </h1>
+                <div className="flex  place-content-center p-4 py-2 text-black">
+                  <div className="inline-flex   items-center">
+                    <img
+                      className="block textContainer  h-12 rounded-full"
+                      src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2F20200217_172241_IMG%20(2)%20(1)%20(2)-modified%20(1).png?alt=media&token=def150dd-a7fd-4338-b7f2-12056ecf6be6"
+                    />
+                    <p className="text-white text-sm font-bold min-[1280px]:max-w-auto  ml-2 mr-2 inline-flex">
+                      By: Erickson Sernero
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </article>
+          </div>
+          <div>
+            <article className="overflow-hidden bg-[#171717] rounded-lg shadow-lg">
+              <a
+                href="https://f3m5a2h3.stackpathcdn.com/"
+                target="_blank"
+                onMouseEnter={(e) => {
+                  setViewMoreShowg({ display: "block" });
+                }}
+                onMouseLeave={(e) => {
+                  setViewMoreShowg({ display: "none" });
+                }}
+              >
+                <div className="block h-auto bg-[#f8f8f8] relative w-full">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/webproject-6f2f2.appspot.com/o/portfolio%2Fprojects%2FGuillermo%20Jimenez.png?alt=media&token=0ca311a2-f9d2-47f3-9fae-52616709a5ec"
+                    className="w-full h-[300px] object-cover m-auto max-w-fit"
+                  />
+                  <div
+                    style={viewMoreShowg}
+                    className="-translate-y-1/2 -translate-x-1/2  w-full h-full bg-opacity-50 bg-black absolute text-center m-0 top-1/2 left-1/2"
+                  ></div>
+                  <p
+                    className="-translate-y-1/2 -translate-x-1/2 text-[#ececec] hover:text-white absolute text-center m-0 top-1/2 left-1/2"
+                    style={viewMoreShowg}
+                  >
+                    Goto Website
+                  </p>
+                </div>
+              </a>
+              <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
+                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                  <div className=" text-white font-bold">Guillermo Jimenez</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
                   <div className="inline-flex   items-center">
