@@ -92,23 +92,24 @@ const Skills = () => {
                         className="list-disc indent-6 "
                       >
                         <li className="text-sm">
-                          Build Websites Using Company owned Platform
+                          Build websites using company owned platform
                         </li>
                       </ul>
                     </li>
                     <li>
-                      Maintaining CSS injection library
+                      Maintaining CSS Injection Library
                       <ul
                         style={{ listStyle: "inherit" }}
                         className="list-disc indent-6 "
                       >
                         <li className="text-sm">
-                          CSS is used to replace or modify Global/Default CSS
+                          This CSS is used to replace or modify global/default
+                          CSS
                         </li>
                       </ul>
                     </li>
                     <li>
-                      Provide support & learning sessions
+                      Provide Support & Learning Sessions
                       <ul
                         style={{ listStyle: "inherit" }}
                         className="list-disc indent-6 "
@@ -139,7 +140,7 @@ const Skills = () => {
                       </ul>
                     </li>
                     <li>
-                      Assist with SOP update
+                      Assist with SOP Update
                       <ul
                         style={{ listStyle: "inherit" }}
                         className="list-disc indent-6 "
