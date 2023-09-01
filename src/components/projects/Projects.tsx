@@ -88,7 +88,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">
                     CRUD Sample(Test Site)
                   </div>
@@ -137,7 +137,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">
                     Dicker Morin Group
                   </div>
@@ -186,7 +186,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Nick Murphy</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -233,7 +233,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Blair Heath</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -280,7 +280,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">
                     Royal Realty Group
                   </div>
@@ -329,7 +329,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Kim Warden</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -376,7 +376,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Gretchen Swall</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -423,7 +423,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Suzzane Scott</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -470,7 +470,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">The Cady Team</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -517,7 +517,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Maryellen Griffin</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -564,7 +564,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">
                     Patek + Jones Group
                   </div>
@@ -613,7 +613,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Luisa Defeo</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
@@ -660,7 +660,7 @@ const Projects = () => {
                 </div>
               </a>
               <header className="flex-wrap md:flex items-center text-center md:justify-between p-4  ">
-                <h1 className="text-lg  break-words items-center p-4 py-2 ">
+                <h1 className="text-md  break-words items-center p-4 py-2 ">
                   <div className=" text-white font-bold">Guillermo Jimenez</div>
                 </h1>
                 <div className="flex  place-content-center p-4 py-2 text-black">
