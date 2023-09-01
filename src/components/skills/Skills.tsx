@@ -118,8 +118,8 @@ const Skills = () => {
                           POC on any website-building-related issue
                         </li>
                         <li className="text-sm">
-                          Keeping the team informed of new template releases and
-                          features
+                          Keeping the team informed of new component releases
+                          and features
                         </li>
                         <li className="text-sm">
                           Introducing innovative website enhancement strategies
