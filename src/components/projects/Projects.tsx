@@ -41,6 +41,7 @@ const Projects = () => {
   return (
     <>
       <div className="bg-[#000] py-20">
+        <span className="absolute mt-[-100px]" id="sample-projects"></span>
         <Fade cascade damping={0.1} direction="up">
           <h2 className=" max-w-full text-center  bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl pb-5 sm:text-5xl  lg:text-7xl  font-black">
             Sample Projects

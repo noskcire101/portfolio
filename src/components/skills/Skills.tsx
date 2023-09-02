@@ -66,8 +66,10 @@ const Skills = () => {
     <div className="wrapper bg-[#000] m-auto">
       <div className="overflow-auto relative flex flex-col w-full md:w-12/12  mx-auto px-[0%] ">
         <div className="flex  flex-wrap">
+          <span id="work-experience"></span>
           <div className="w-full self-center lg:w-6/12 animate-fade-up  px-5 md:px-10 py-10 ">
             <br></br>
+
             <Fade cascade damping={0.1} direction="left">
               <h2 className="max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
                 Work Experience
@@ -157,6 +159,7 @@ const Skills = () => {
                 <br></br>
               </div>
             </Fade>
+            <span className="absolute mt-[-100px]" id="technical-skills"></span>
             <Fade cascade damping={0.1} direction="left">
               <h2 className=" max-w-[700px] mx-auto pb-10 bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
                 Technical Skills

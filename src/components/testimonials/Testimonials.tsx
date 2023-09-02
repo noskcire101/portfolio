@@ -6,6 +6,7 @@ import { TfiLayoutWidthDefault } from "react-icons/tfi";
 const Testimonials = () => {
   return (
     <div className="wrapper h-[750px] bg-[#000] py-[70px] m-auto pb-[13vh] overflow-hidden ">
+      <span className="absolute mt-[-100px]" id="recommendations"></span>
       <Fade cascade damping={0.1} direction="right">
         <h2 className=" max-w-full text-center bg-gradient-to-r from-[#fff] via-[#bebebe] to-[#000000] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl  font-black">
           Recommendations

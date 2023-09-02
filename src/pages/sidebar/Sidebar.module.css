@@ -11,7 +11,7 @@
 }
 
 .innerCon {
-  background: #1a1a1a;
+  background: #464646;
   display: block;
   position: fixed;
   z-index: 60;
@@ -20,7 +20,7 @@ main {
   width: 100%;
 }
 .sidebar {
-  background: #1a1a1a;
+  background: #464646;
   color: #fff;
   height: 100vh;
   width: 300px;
@@ -30,7 +30,7 @@ main {
   display: flex;
   align-items: center;
   padding: 15px 15px;
-  background-color: #1a1a1a;
+  background-color: #464646;
   height: 67px;
 }
 .logo {
@@ -45,7 +45,7 @@ main {
   margin-left: 0px;
   transition: all 0.5s;
   padding: 19px;
-  background-color: #1a1a1a;
+  background-color: #464646;
   position: absolute;
   left: -63px;
   cursor: pointer;

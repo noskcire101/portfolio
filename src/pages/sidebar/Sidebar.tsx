@@ -1,8 +1,14 @@
 import React, { useState } from "react";
-import { BiLogOut } from "react-icons/bi";
+import { BiLogOut, BiTask } from "react-icons/bi";
 import { TfiAlignRight, TfiClose } from "react-icons/tfi";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
-import { MdAccountBox } from "react-icons/md";
+import {
+  MdAccountBox,
+  MdOutlineWorkOutline,
+  MdOutlineRecommend,
+} from "react-icons/md";
+import { GiSkills } from "react-icons/gi";
+import { PiGraduationCapBold } from "react-icons/pi";
 
 import { useNavigate } from "react-router-dom";
 import { ReactNode } from "react";
@@ -39,7 +45,7 @@ const Sidebar = ({ children }: Props) => {
   return (
     <>
       <div className={styles.container}>
-        <span style={{ display: "none" }} className={styles.innerCon}>
+        <span style={{ display: "block" }} className={styles.innerCon}>
           <div
             style={{ width: isOpen ? "250px" : "0px" }}
             className={styles.sidebar}
@@ -58,6 +64,61 @@ const Sidebar = ({ children }: Props) => {
               </button>
             </div>
 
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <MdOutlineWorkOutline />
+              </div>
+              <p
+                style={{ display: isOpen ? "block" : "none" }}
+                className={styles.link_text}
+              >
+                <a href="#work-experience">Work Experience</a>
+              </p>
+            </div>
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <GiSkills />
+              </div>
+              <p
+                style={{ display: isOpen ? "block" : "none" }}
+                className={styles.link_text}
+              >
+                <a href="#technical-skills">Technical Skills</a>
+              </p>
+            </div>
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <MdOutlineRecommend />
+              </div>
+              <p
+                style={{ display: isOpen ? "block" : "none" }}
+                className={styles.link_text}
+              >
+                <a href="#recommendations">Recommendations</a>
+              </p>
+            </div>
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <PiGraduationCapBold />
+              </div>
+              <p
+                style={{ display: isOpen ? "block" : "none" }}
+                className={styles.link_text}
+              >
+                <a href="#educational-attainment">Educational Attainment</a>
+              </p>
+            </div>
+            <div className={styles.link}>
+              <div className={styles.icon}>
+                <BiTask />
+              </div>
+              <p
+                style={{ display: isOpen ? "block" : "none" }}
+                className={styles.link_text}
+              >
+                <a href="#sample-projects">Sample Projects</a>
+              </p>
+            </div>
             <div
               onClick={() => setopenSub(!openSub)}
               className={
@@ -71,7 +132,7 @@ const Sidebar = ({ children }: Props) => {
                 style={{ display: isOpen ? "block" : "none" }}
                 className={styles.link_text}
               >
-                My Account
+                Contact Me
               </p>
               {openSub ? (
                 <FaAngleUp className="text-lg self-center font-bold duration-1000" />
@@ -86,7 +147,24 @@ const Sidebar = ({ children }: Props) => {
               {/* <li onClick={handleClick} className="text-sm">
                 Update Information
               </li> */}
-              <li className="text-sm">LinkedIn</li>
+              <li className="text-sm">
+                <a
+                  href="https://www.linkedin.com/in/ericksonsernero777/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li className="text-sm">
+                <a href="mailto:esernero@gmail.com" target="_blank">
+                  Gmail
+                </a>
+              </li>
+              <li className="text-sm">
+                <a href="mailto:esernero@outlook.com" target="_blank">
+                  Outlook
+                </a>
+              </li>
             </ul>
           </div>
         </span>
