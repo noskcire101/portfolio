@@ -49,11 +49,6 @@ main {
   position: absolute;
   left: -63px;
   cursor: pointer;
-  @media only screen and (max-width: 639px) {
-    padding: 16px;
-    left: -57px;
-    top: 0;
-  }
 }
 
 ul.dropDown {
