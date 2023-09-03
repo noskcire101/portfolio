@@ -86,6 +86,7 @@ const Skills = () => {
                   <p className="pb-2 font-medium text-lg">
                     Luxury Presence, Inc (April 2020 – May 2023)
                   </p>
+                  <p className="pb-2 font-medium text-lg">Job Descriptions</p>
                   <ul className="space-y-1 list-disc font-medium text-lg list-inside">
                     <li>
                       Build Websites

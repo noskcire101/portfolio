@@ -22,7 +22,7 @@ const HomepageHeader = ({ delaytime }: Props) => {
               <h2 className="animate-text   pb-10 bg-gradient-to-r from-[#fff] via-[#6e6e6e] to-[#464646] bg-clip-text text-transparent text-4xl sm:text-5xl  lg:text-7xl font-black">
                 Hello, my name is Erickson. I'm a Web Developer
               </h2>
-              <p className="pb-2 font-medium text-white text-lg">
+              <p className="text-xl   font-medium text-white">
                 Seeking a position in a dynamic organization where I can launch
                 my career and work towards building a strong skill set.
               </p>
