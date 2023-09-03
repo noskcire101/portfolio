@@ -91,7 +91,7 @@ const Skills = () => {
                       Build Websites
                       <ul
                         style={{ listStyle: "inherit" }}
-                        className="list-disc indent-6 "
+                        className="list-disc pl-5 "
                       >
                         <li className="text-sm">
                           Build websites using company owned platform
@@ -102,7 +102,7 @@ const Skills = () => {
                       Maintaining CSS Injection Library
                       <ul
                         style={{ listStyle: "inherit" }}
-                        className="list-disc indent-6 "
+                        className="list-disc pl-5"
                       >
                         <li className="text-sm">
                           This CSS is used to replace or modify global/default
@@ -114,7 +114,7 @@ const Skills = () => {
                       Provide Support & Learning Sessions
                       <ul
                         style={{ listStyle: "inherit" }}
-                        className="list-disc indent-6 "
+                        className="list-disc pl-5 "
                       >
                         <li className="text-sm">
                           POC on any website-building-related issue
@@ -133,7 +133,7 @@ const Skills = () => {
                       Assist in Training
                       <ul
                         style={{ listStyle: "inherit" }}
-                        className="list-disc indent-6 "
+                        className="list-disc pl-5 "
                       >
                         <li className="text-sm">
                           Provide training sessions for all new hires for the
@@ -145,7 +145,7 @@ const Skills = () => {
                       Assist with SOP Update
                       <ul
                         style={{ listStyle: "inherit" }}
-                        className="list-disc indent-6 "
+                        className="list-disc pl-5 "
                       >
                         <li className="text-sm">
                           Participate in the addition and modification of
