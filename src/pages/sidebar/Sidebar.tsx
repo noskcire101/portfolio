@@ -63,62 +63,71 @@ const Sidebar = ({ children }: Props) => {
                 )}
               </button>
             </div>
-
-            <div className={styles.link}>
-              <div className={styles.icon}>
-                <MdOutlineWorkOutline />
+            <a onClick={handleClick} href="#work-experience">
+              <div className={styles.link}>
+                <div className={styles.icon}>
+                  <MdOutlineWorkOutline />
+                </div>
+                <p
+                  style={{ display: isOpen ? "block" : "none" }}
+                  className={styles.link_text}
+                >
+                  Work Experience
+                </p>
               </div>
-              <p
-                style={{ display: isOpen ? "block" : "none" }}
-                className={styles.link_text}
-              >
-                <a href="#work-experience">Work Experience</a>
-              </p>
-            </div>
-            <div className={styles.link}>
-              <div className={styles.icon}>
-                <GiSkills />
+            </a>
+            <a onClick={handleClick} href="#technical-skills">
+              <div className={styles.link}>
+                <div className={styles.icon}>
+                  <GiSkills />
+                </div>
+                <p
+                  style={{ display: isOpen ? "block" : "none" }}
+                  className={styles.link_text}
+                >
+                  Technical Skills
+                </p>
               </div>
-              <p
-                style={{ display: isOpen ? "block" : "none" }}
-                className={styles.link_text}
-              >
-                <a href="#technical-skills">Technical Skills</a>
-              </p>
-            </div>
-            <div className={styles.link}>
-              <div className={styles.icon}>
-                <MdOutlineRecommend />
+            </a>
+            <a onClick={handleClick} href="#recommendations">
+              <div className={styles.link}>
+                <div className={styles.icon}>
+                  <MdOutlineRecommend />
+                </div>
+                <p
+                  style={{ display: isOpen ? "block" : "none" }}
+                  className={styles.link_text}
+                >
+                  Recommendations
+                </p>
               </div>
-              <p
-                style={{ display: isOpen ? "block" : "none" }}
-                className={styles.link_text}
-              >
-                <a href="#recommendations">Recommendations</a>
-              </p>
-            </div>
-            <div className={styles.link}>
-              <div className={styles.icon}>
-                <PiGraduationCapBold />
+            </a>
+            <a onClick={handleClick} href="#educational-attainment">
+              <div className={styles.link}>
+                <div className={styles.icon}>
+                  <PiGraduationCapBold />
+                </div>
+                <p
+                  style={{ display: isOpen ? "block" : "none" }}
+                  className={styles.link_text}
+                >
+                  Educational Attainment
+                </p>
               </div>
-              <p
-                style={{ display: isOpen ? "block" : "none" }}
-                className={styles.link_text}
-              >
-                <a href="#educational-attainment">Educational Attainment</a>
-              </p>
-            </div>
-            <div className={styles.link}>
-              <div className={styles.icon}>
-                <BiTask />
+            </a>
+            <a onClick={handleClick} href="#sample-projects">
+              <div className={styles.link}>
+                <div className={styles.icon}>
+                  <BiTask />
+                </div>
+                <p
+                  style={{ display: isOpen ? "block" : "none" }}
+                  className={styles.link_text}
+                >
+                  Sample Projects
+                </p>
               </div>
-              <p
-                style={{ display: isOpen ? "block" : "none" }}
-                className={styles.link_text}
-              >
-                <a href="#sample-projects">Sample Projects</a>
-              </p>
-            </div>
+            </a>
             <div
               onClick={() => setopenSub(!openSub)}
               className={

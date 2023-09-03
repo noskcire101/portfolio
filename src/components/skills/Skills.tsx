@@ -67,7 +67,7 @@ const Skills = () => {
       <div className="overflow-auto relative flex flex-col w-full md:w-12/12  mx-auto px-[0%] ">
         <div className="flex  flex-wrap">
           <span id="work-experience"></span>
-          <div className="w-full self-center lg:w-6/12 animate-fade-up  px-5 md:px-10 py-10 ">
+          <div className="w-full self-center lg:w-6/12   px-5 md:px-10 py-10 ">
             <br></br>
 
             <Fade cascade damping={0.1} direction="left">
